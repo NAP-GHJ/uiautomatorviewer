@@ -266,7 +266,7 @@ public class UiAutomatorView extends Composite {
                 }
             }
         });
-        mScreenshotCanvas.setBackgroundImage(ImageHelper.loadImageDescriptorFromResource("images/wx2.png").createImage());
+//        mScreenshotCanvas.setBackgroundImage(ImageHelper.loadImageDescriptorFromResource("images/wx2.png").createImage());
         
         mSetScreenshotComposite = new Composite(mScreenshotComposite, SWT.NONE);
         mSetScreenshotComposite.setLayout(new GridLayout());
