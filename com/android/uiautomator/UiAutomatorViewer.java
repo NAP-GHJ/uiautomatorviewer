@@ -40,17 +40,12 @@ import java.io.File;
  * @Description 程序入口
  */
 public class UiAutomatorViewer extends ApplicationWindow {
-    {
-        System.out.println("类被加载了");
-    }
 
     private UiAutomatorView mUiAutomatorView;
     private UiAutomatorModel uModel;
     private ControlDefineAction controlDefineAction;
     public UiAutomatorViewer() {
         super(null);
-        System.out.println("类被加载了");
-
     }
 
     @Override
@@ -84,7 +79,6 @@ public class UiAutomatorViewer extends ApplicationWindow {
     }
 
     public static void main(String args[]) {
-        System.out.println("程序被正常启动了");
         DebugBridge.init();
         try {
             UiAutomatorViewer window = new UiAutomatorViewer();

@@ -25,7 +25,6 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author huangshuli
  * @Description 调试模式。本地调试时，需要手动修改getAdbLocation()方法中，toolsDir的路径为本机sdk的安装目录
  */
 public class DebugBridge {

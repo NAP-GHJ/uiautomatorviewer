@@ -16,7 +16,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author wylaihuiying
  * @version V1.0
  * @Title: ${FILE_NAME}
  * @Package com.android.uiautomator
