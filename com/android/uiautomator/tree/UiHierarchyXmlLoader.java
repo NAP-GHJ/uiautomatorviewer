@@ -179,7 +179,7 @@ public class UiHierarchyXmlLoader {
 //                    		myNode.addAtrribute("xpath2",xpath2);
                         	myNode.addAtrribute("fullIndexXpath",fullIndexXpath);
                         	myNode.addAtrribute("xpath",xpath);
-                    		myNode.addAtrribute("uiaSelector",uiaStr);
+//                    		myNode.addAtrribute("uiaSelector",uiaStr);
                   
 //                        	System.out.println(uiaStr);
                         }
